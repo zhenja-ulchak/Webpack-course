@@ -1,0 +1,10 @@
+1 problem"
+
+add in file package.json and after run comannd in terminal (npm run build)
+
+ "scripts": {
+    "build" : "webpack"
+  },
+
+"
+
