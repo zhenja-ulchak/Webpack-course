@@ -1,6 +1,5 @@
 
 const path = require('path')
-
 //exports object
 module.exports = {
     mode: 'development',
