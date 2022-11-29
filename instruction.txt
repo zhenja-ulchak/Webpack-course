@@ -7,4 +7,38 @@ add in file package.json and after run comannd in terminal (npm run build)
   },
 
 "
+2 '
+[name] - patern for name if you have two road
+entry: {
+        main: './src/index.js',
+        analytics: './src/analytic.js'
+    },// start file
+    output: {
+        filename:'[name].bandle.js',
+'
+
+
+3.     plugins : [
+        new HTMLWebpackPlugin({            add new plugin
+            title:'my app',                instr  for title
+            template:'./src/index.html'    add base template in index.html
+        })
+    ]
+
+
+
+    ======================================
+
+    npm install -D html-webpack-plugin - (add html)
+    npm install -D clean-webpack-plugin - (clean file in dist directory) 
+
+    "dev": "webpack --mode development"  -- npm run dev  
+    "build": "webpack --mode production" -- npm run build
+
+
+ "watch": "webpack --mode development --watch" -- check alwais 
+
+
+
+
 
